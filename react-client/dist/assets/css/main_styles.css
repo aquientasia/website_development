@@ -1,0 +1,433 @@
+/* ----- GENERAL LAYOUT ----- */
+.clearfix:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.container-full-wd {
+    padding: 20px 25px;
+    width: 100%;
+}
+
+/* --- Multiple Columns --- */
+.cols-2,
+.cols-3,
+.cols-4 {
+    float: left;
+}
+
+.cols-2 {
+    width: 50%;
+}
+
+.cols-3 {
+    width: 33%;
+}
+
+.cols-4 {
+    width: 25%;
+}
+
+
+/* --- Gutters & Typography --- */
+.align-ctr {
+    text-align: center;
+}
+
+.pad-x-15 {
+    padding: 15px 0;
+}
+
+.pad-x-20 {
+    padding: 20px 0;
+}
+
+.pad-x-30 {
+    padding: 30px 0;
+}
+
+.pad-x-40 {
+    padding: 40px 0;
+}
+
+.pad-y-15 {
+    padding: 0 15px;
+}
+
+.pad-y-20 {
+    padding: 0 20px;
+}
+
+.pad-y-30 {
+    padding: 0 30px;
+}
+
+.pad-y-40 {
+    padding: 0 40px;
+}
+
+.pad-15 {
+    padding: 15px;
+}
+
+.pad-20 {
+    padding: 20px;
+}
+
+.pad-30 {
+    padding: 30px;
+}
+
+.pad-40 {
+    padding: 40px;
+}
+
+
+/* ---- HEADER ---- */
+.header .cols-2,
+.header-logo {
+    min-height: 65px;
+}
+
+.header-logo {
+    position: relative;
+}
+
+.header-logo img {
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* --- Naivgation --- */
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 30px;
+    text-align: right;
+}
+
+.main-nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.main-nav ul li a {
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.main-nav ul li a:active,
+.main-nav ul li a:hover {
+    color: #003BFF;
+}
+
+.main-nav ul li:last-child {
+    margin-right: 0px;
+}
+
+.main-nav ul li:last-child a {
+    color: #003BFF;
+    border: 2px solid #003BFF;
+    border-radius: 28px;
+    font-weight: 600;
+    padding: 8px 20px;
+    text-align: center;
+    width: 165px;
+}
+
+.main-nav ul li:last-child a:active,
+.main-nav ul li:last-child a:hover {
+    color: #FFFFFF;
+    background: #003BFF;
+}
+
+
+/* ---- FOOTER ---- */
+.footer .cols-3:first-child,
+.footer .cols-3:last-child {
+    width: 28%;
+}
+
+.footer .cols-3:nth-child(2) {
+    width: 44%;
+}
+
+.footer .cols-3:first-child img,
+.footer .cols-3 h3,
+.footer .cols-3 p {
+    margin: 0 0 15px 0;
+}
+
+.footer .cols-3:last-child {
+    text-align: right;
+}
+
+.footer .cols-3:last-child p {
+    font-size: 11px;
+}
+
+/* --- Footer Content --- */
+.footer-content ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.footer-content ul,
+.footer-content h3 {
+    text-align: center;
+}
+
+.footer-content h3,
+.footer-content ul li a {
+    font-size: 14px;
+}
+
+.footer-content h3 {
+    font-weight: 600;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+}
+
+.footer-content ul li img {
+    width: 56px;
+}
+
+
+/* ---- MAIN CONTENT ---- */
+.text-content {
+    color: #30353E;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.text-content span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.text-content h1 {
+    font-size: 55px;
+    line-height: 60px;
+}
+
+/* --- Section A --- */
+.section-a {
+    margin-bottom: 70px;
+}
+
+/* --- Section B --- */
+.section-b {
+    background: #FFF384;
+    margin-bottom: 90px;
+}
+
+.section-b .overlap-image {
+    position: relative;
+    height: 535px;
+}
+
+.section-b .overlap-image img {
+    position: absolute;
+    right: 0;
+    top: -20%;
+    width: 490px;
+}
+
+.learn-more-cta {
+    margin-top: 25px;
+}
+
+.learn-more-cta a {
+    color: #FFFFFF;
+    background: #003BFF;
+    border: 2px solid #003BFF;
+    border-radius: 28px;
+    display: inline-block;
+    font-size: 14px;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    width: 180px;
+}
+
+/* --- Section C --- */
+.section-c {
+    margin-bottom: 70px;
+}
+
+.section-c .tech-partners img:first-child, 
+.section-c .tech-partners img:last-child{
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.section-c .tech-partners img:last-child{
+    margin-bottom: 0;
+}
+
+.section-c .tech-partners img{
+    max-width: 230px;
+}
+
+.section-c .tech-partners .cols-2{
+    min-height: 97px;
+}
+
+/* --- Section D --- */
+.section-d {
+    background: #313131;
+    margin-bottom: 250px;
+}
+
+.section-d .text-content {
+    color: #FAFAFA;
+    width: 60%;
+}
+
+.section-d .text-content p {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.section-d .overlap-image {
+    position: relative;
+    height: 450px;
+}
+
+.section-d .overlap-image img {
+    bottom: -30%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.contact-us-cta {
+    margin: 25px 0;
+}
+
+.contact-us-cta a {
+    color: #FFFFFF;
+    background: #003BFF;
+    border: 2px solid #003BFF;
+    border-radius: 28px;
+    display: inline-block;
+    font-size: 14px;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    width: 180px;
+}
+
+/* ----- MOBILE LAYOUT ----- */
+@media screen and (max-width: 768px) {
+    /* ---- GENERAL LAYOUT ---- */
+    /* --- Multiple Columns --- */
+    .cols-2,
+    .cols-3,
+    .cols-4 {
+        display: block;
+        float: none;
+        margin: 0px 0px 20px 0;
+        width: 100%;
+    }
+
+    /* ---- HEADER ---- */
+    /* --- Naivgation --- */
+    .main-nav ul {
+        padding: 5px;
+        text-align: left;
+    }
+
+    .main-nav ul li {
+        display: block;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    /* ---- FOOTER ---- */
+
+    .footer-content ul,
+    .footer-content h3,
+    .footer .cols-3:last-child p {
+        text-align: left;
+    }
+
+    /* ---- MAIN CONTENT ---- */
+    .text-content {
+        width: 100%;
+    }
+
+    .text-content span,
+    .text-content h1,
+    .text-content p {
+        display: block;
+        padding: 20px;
+        margin: 0;
+    }
+
+    /* --- Section A --- */
+    .section-a {
+        margin-bottom: 0;
+    }
+
+    /* --- Section B --- */
+    .section-b .overlap-image {
+        height: 550px;
+    }
+
+    .section-b .overlap-image img {
+        margin-top: 20px;
+        position: initial;
+        right: initial;
+        top: initial;
+        width: 80%;
+    }
+
+    .learn-more-cta {
+        padding: 0 20px;
+    }
+
+    /* --- Section C --- */
+    .section-c{
+        margin-bottom: 0;
+    }
+
+    .section-c .tech-partners .cols-2{
+        min-height: initial;
+    }
+
+    .section-c .tech-partners img, 
+    .section-c .tech-partners .cols-2 img{
+        margin-bottom: 35px !important;
+    }
+
+    /* --- Section D --- */
+    .section-d .text-content,
+    .section-d .text-content p {
+        width: 100%;
+    }
+
+    .section-d .overlap-image {
+        height: 250px;
+    }
+
+    .section-d .overlap-image img {
+        margin-top: 20px;
+        position: absolute;
+        right: initial;
+        top: initial;
+        width: 80%;
+    }
+}
