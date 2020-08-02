@@ -8,6 +8,13 @@ class NavBar extends Component {
 	            <div class="cols-2">
 	                <div class="header-logo"><img src="assets/images/aquient_logo.png" alt="Aquient | Header Logo"/></div>
 	            </div>
+	            <div class="burger-container">
+	                <div class="burger-nav">
+	                    <div></div>
+	                    <div></div>
+	                    <div></div>
+	                </div>
+	            </div>
 	            <div class="cols-2">
 	                <div class="main-nav">
 	                    <ul class="nav-items">

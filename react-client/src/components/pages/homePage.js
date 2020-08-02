@@ -29,7 +29,7 @@ class HomePage extends Component {
 			        </div>
 			        <div class="cols-2 align-ctr">
 			            <div class="overlap-image">
-			                <img src="assets/images/visual_b.png" alt="Image Visual" />
+			                <img src="assets/images/home_img.png" alt="Image Visual" />
 			            </div>
 			        </div>
 			    </div>
@@ -44,10 +44,10 @@ class HomePage extends Component {
 			        </div>
 			        <div class="cols-2 align-ctr">
 			            <div class="tech-partners clearfix pad-x-20">
-			                <img src="assets/images/salesforce_gold_partner.jpg" alt="Salesforce Gold Partner" />
-			                <div class="cols-2"><img src="assets/images/sitecore_certified_partner.jpg" alt="Sitecore Certified Solutions Partner" /></div>
-			                <div class="cols-2"><img src="assets/images/google_cloud_partner.jpg" alt="Google Cloud Partner" /></div>
-			                <img src="assets/images/mulesoft_logo.jpg" alt="Mulesoft" />
+			                <img src="assets/images/salesforcegoldconsultingpartnerlogo.jpg" alt="Salesforce Gold Consulting Partner" />
+			                <div class="cols-2"><img src="assets/images/sitecorelogo.jpg" alt="Sitecore Certified Solutions Partner" /></div>
+			                <div class="cols-2"><img src="assets/images/googlecloudpartner.jpg" alt="Google Cloud Partner" /></div>
+			                <img src="assets/images/mulesoftparnerlogo.jpg" alt="Mulesof Partnert" />
 			            </div>
 			        </div>
 			    </div>
@@ -59,7 +59,7 @@ class HomePage extends Component {
 			            <p>Aquient helps companies solve their business problems and build capability for the future, with solutions spanning business advisory, customer experience, technology, and analytics.</p>
 			            <div class="contact-us-cta"><a href="#">Contact Us &nbsp;&gt;</a></div>
 			        </div>
-			        <div class="overlap-image align-ctr"><img src="assets/images/visual_c.jpg" alt="Image Visual" /></div>
+			        <div class="overlap-image align-ctr"><img src="assets/images/home_img4.jpg" alt="Image Visual" /></div>
 			    </div>
 			</div>
 		</div>
