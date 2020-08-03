@@ -131,6 +131,11 @@
     width: 20px
 }
 
+.toggleHeight{
+    height: 0 !important;
+    overflow: hidden;
+}
+
 /* --- Naivgation --- */
 .main-nav ul {
     list-style: none;
@@ -364,7 +369,7 @@
 }
 
 /* ----- MOBILE LAYOUT ----- */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     /* ---- GENERAL LAYOUT ---- */
     /* --- Multiple Columns --- */
     .cols-2,
@@ -391,7 +396,15 @@
         clear: both;
         display: block;
         float: none;
+        margin: 0;
+        min-height: initial;
+        overflow: hidden;
         width: 100%
+    }
+
+    .main-nav{
+        height: 206px;
+        transition: 0.5s
     }
 
     .main-nav ul {

@@ -1,9 +1,33 @@
 $(document).ready(function() {
-      
-	$(".main-nav").hide();
+	function toggleNav(){
+		var screenWidth = $(window).width();
 
-	$(".burger-nav").click(function(){
-		$(".main-nav").show();
+		if (screenWidth <= 1024) {
+			$(".main-nav").addClass("toggleHeight");
+
+			$(".burger-nav").click(function(){
+
+				if($(".main-nav").hasClass("toggleHeight")){
+					$(".main-nav").toggleClass("toggleHeight");
+				}
+				else{
+					$(".main-nav").addClass("toggleHeight");
+				}
+
+			});
+		}
+		else{
+			$(".main-nav").removeClass("toggleHeight");
+		}
+	}
+
+	toggleNav();
+
+	$(window).resize(function(){
+
+		var screenWidth = $(window).width();
+		toggleNav();
+
 	});
 
 });
