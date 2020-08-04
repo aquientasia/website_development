@@ -6,7 +6,7 @@ class HomePage extends Component {
 			<div class="section-a pad-x-30">
 			    <div class="container clearfix">
 			        <div class="cols-2 align-ctr">
-			            <img src="assets/images/visual_a.png" alt="Image Visual" />
+			            <div class="svg-visual" id="lottie"></div>
 			        </div>
 			        <div class="cols-2">
 			            <div class="text-content">

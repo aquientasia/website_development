@@ -261,6 +261,15 @@
     margin-bottom: 70px;
 }
 
+#lottie {
+    background-color: #fff;
+    display: block;
+    max-width: 100%;
+    opacity: 1;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+}
+
 /* --- Section B --- */
 .section-b {
     background: #FFF384;
